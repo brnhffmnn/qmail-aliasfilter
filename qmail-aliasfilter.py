@@ -214,7 +214,7 @@ else:
 		logfile.close()
 		
 		#sys.exit(99)	# silently drop message
-		 sys.exit(100) # or bounce message (hard error) and return message from mailer daemon
+		sys.exit(100) # or bounce message (hard error) and return message from mailer daemon
 		# sys.exit(111) # or reject message temporarily (soft error). not preferable for most spam but for debbuging!
 
 # End of file qmail-aliasfilter.py
